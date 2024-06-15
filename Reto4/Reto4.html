@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora operaciones básicas</title>
+    <link rel="stylesheet" href="Reto4.css">
+</head>
+<body> 
+    <h1>CALCULADORA</h1>
+        <div id="calculadora">
+        <label for="resultado"></label>
+        <input type="text" id="resultado" name="resultado" readonly>
+        <div class="botones">
+            <button></button>
+            <button></button>
+            <button onclick="resetear()">CE</button>
+            <button onclick="Operador('/')">/</button>
+            <button onclick="Numero('7')">7</button>
+            <button onclick="Numero('8')">8</button>
+            <button onclick="Numero('9')">9</button>
+            <button onclick="Operador('*')">*</button>
+            <button onclick="Numero('4')">4</button>
+            <button onclick="Numero('5')">5</button>
+            <button onclick="Numero('6')">6</button>
+            <button onclick="Operador('-')">-</button>
+            <button onclick="Numero('1')">1</button>
+            <button onclick="Numero('2')">2</button>
+            <button onclick="Numero('3')">3</button>
+            <button onclick="Operador('+')">+</button>
+            <div></div>
+            <button onclick="Numero('0')">0</button>
+            <div></div>
+            <button onclick="CalcularResultado()">=</button>
+        </div> 
+        </div>
+        
+    <script src="Reto4.js"></script>
+</body>
+</html>
